@@ -14,4 +14,4 @@ COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
 COPY --from=builder /build/hello-world ./hello-world
 
-ENTRYPOINT ["/app/hello-world"]
+ENTRYPOINT ["./hello-world"]
