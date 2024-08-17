@@ -10,5 +10,6 @@ FROM scratch
 WORKDIR /app
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /build/hello-world ./hello-world
+COPY --from=builder /build/static ./static
 
 ENTRYPOINT ["/app/hello-world"]
