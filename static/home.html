@@ -11,10 +11,24 @@
 </head>
 <body>
     <h1>Hello world</h1>
-    <p>Sometimes it's important to just say hello</p>
-    <button onclick="onHello()">Say hello</button>
-    <a href="https://github.com/Gregory-coder">
-        <p>Follow me on Github</p>
-        <img src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-512.png" alt="">
-    </a>
+    <div id="content">
+        <div id="article">
+            <h2>About me</h2>
+            <p>Hello world, my name is Gregory and I'm a backend developer. This website is supposed for hosting my pet-projects.</p>
+            <p>Despite the fact I prefer backend to frontend this site is fully written by me, so don't judge me.</p>
+            <h2>Self-portrait</h2>
+            <div class="illustration">
+                <img src="/media/me-according-to-gpt.png">
+                <p>Source: ChatGPT</p>
+            </div>
+            <p>That's how I look, according to ChatGPT.</p>
+        </div>
+        <div id="contacts">
+            <a href="https://github.com/Gregory-coder">
+                <p>Follow me on Github</p>
+                <img src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-512.png" alt="">
+            </a>
+            <button onclick="onHello()">Say hello</button>
+        </div>
+    </div>
 </body>
