@@ -21,7 +21,7 @@ run:
 	@echo "Running Docker container on port $(web_port)"
 	@docker run -d --name $(container_name) -p $(web_port):$(docker_port) $(image_name)
 
-start: pull build stop run
+update: pull build stop run
 
 dev:
 	@echo "Running on Windows"
