@@ -1,17 +1,22 @@
 package main
 
 import (
-	"net/http"
+	"log"
+
+	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.Path != "/" {
-			http.ServeFile(w, r, "./static/not-found/index.html")
-			//w.WriteHeader(http.StatusNotFound)
-			return
-		}
-		http.ServeFile(w, r, "./static/home/index.html")
+	app := fiber.New()
+
+	app.Get("/", func(c *fiber.Ctx) error {
+		return c.SendFile("./static/home/index.html")
 	})
-	http.ListenAndServe(":8080", nil)
+
+	// 404 Handler
+	app.Use(func(c *fiber.Ctx) error {
+		return c.Status(404).SendFile("./static/not-found/index.html")
+	})
+
+	log.Fatal(app.Listen(":8080"))
 }
