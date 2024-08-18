@@ -10,6 +10,8 @@ pull:
 stop:
 	@echo "Stopping contatiner $(container_name)"
 	@docker stop $(container_name)
+	@echo "Removing container $(container_name)"
+	@docker rm $(container_name)
 
 build:
 	@echo "Building Docker image"
