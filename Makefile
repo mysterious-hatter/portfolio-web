@@ -13,4 +13,4 @@ build:
 
 run:
 	@echo "Running Docker container on port $(web_port)"
-	@docker run -d -p $(web_port):$(docker_port) $(image_name) --name $(container_name)
+	@docker run -d --name $(container_name) -p $(web_port):$(docker_port) $(image_name) 
