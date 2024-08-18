@@ -7,10 +7,20 @@ pull:
 	@echo "Pulling changes from GitHub"
 	@git pull origin master
 
+stop:
+	@echo "Stopping contatiner $(container_name)"
+	@docker stop $(container_name)
+
 build:
 	@echo "Building Docker image"
 	@docker build -t $(image_name) .
 
 run:
 	@echo "Running Docker container on port $(web_port)"
-	@docker run -d --name $(container_name) -p $(web_port):$(docker_port) $(image_name) 
+	@docker run -d --name $(container_name) -p $(web_port):$(docker_port) $(image_name)
+
+start: pull build stop run
+
+dev:
+	@echo "Running on Windows"
+	@go run main.go
