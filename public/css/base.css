@@ -12,6 +12,11 @@ html {
     --source: #5f789e;
     --accent: #cc9d9d;
     --demo: #806491;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -19,6 +24,7 @@ body {
     flex-direction: row;
     height: 100vh;
     overflow: hidden;
+    margin: 0;
 }
 
 a {

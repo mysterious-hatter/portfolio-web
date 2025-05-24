@@ -12,8 +12,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        overflow: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
         height: 100%;
+        width: 100%;
     }
     #me, #my-projects {
         width: 100%;
