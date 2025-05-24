@@ -4,7 +4,7 @@ const projects = [
         description: "A personal finance management tool to track income and expenses.",
         image: "https://money-tracker.mysterious-hatter.engineer/static/img/logo.png",
         link: "https://money-tracker.mysterious-hatter.engineer",
-        docs: "https://github.com/mysterious-hatter/money-tracker-api",
+        docs: "https://github.com/mysterious-hatter/money-tracker",
     },
     {
         name: "Referral Telegram Bot",
