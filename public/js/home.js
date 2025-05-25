@@ -9,13 +9,13 @@ const projects = [
     {
         name: "Referral Telegram Bot",
         description: "A Telegram bot that manages referral links and tracks user referrals.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png",
+        image: "https://mysterious-hatter.engineer/media/telegram-logo.png",
         docs: "https://github.com/mysterious-hatter/go-referral-bot",
     },
     {
         name: "Quardratic Equation Solver",
         description: "A package for solving quadratic equations in Go.",
-        image: "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
+        image: "https://mysterious-hatter.engineer/media/go-logo.png",
         docs: "https://github.com/mysterious-hatter/quadratic-equation-solver",
     },
 ];
