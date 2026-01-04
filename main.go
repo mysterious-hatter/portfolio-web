@@ -7,6 +7,11 @@ import (
 )
 
 func main() {
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080" // fallback for local development
+	}
+
 	app := fiber.New()
 
 	app.Static("/", "./public") 
@@ -20,5 +25,5 @@ func main() {
 		return c.Status(404).SendFile("./static/not-found.html")
 	})
 
-	log.Fatal(app.Listen(":8080"))
+	log.Fatal(app.Listen(":"+port, nil))
 }

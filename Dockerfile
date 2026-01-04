@@ -13,4 +13,4 @@ COPY --from=builder /build/homepage ./homepage
 COPY --from=builder /build/static ./static
 COPY --from=builder /build/public ./public
 
-ENTRYPOINT ["/app/homepage"]
+CMD ["/app/homepage"]
