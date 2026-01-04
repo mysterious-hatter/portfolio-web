@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -25,5 +26,5 @@ func main() {
 		return c.Status(404).SendFile("./static/not-found.html")
 	})
 
-	log.Fatal(app.Listen(":"+port, nil))
+	log.Fatal(app.Listen(":" + port))
 }
