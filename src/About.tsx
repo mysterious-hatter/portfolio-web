@@ -1,5 +1,4 @@
 import styles from "./About.module.css";
-import meImg from '../public/me.png'; 
 
 export default function About() {
     return (
@@ -26,7 +25,7 @@ export default function About() {
                 </ul>
             </div>
             <div id="photo">
-                <img src={meImg} alt="" className={styles["me-img"]}/>
+                <img src="/me.svg" alt="" className={styles["me-img"]}/>
             </div>
         </section>
     );
