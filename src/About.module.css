@@ -1,0 +1,70 @@
+.about {
+    margin-top: 13vh;
+    padding-top: 10%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.me-img {
+    height: 12.5rem;
+    border-radius: 5%;
+}
+
+.text {
+    padding-right: 7vw;
+}
+
+.hello-world {
+    text-align: left;
+    font-size: 0.625rem;
+    color: var(--primary);
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.my-name {
+    color: var(--text-accent);
+}
+
+.software-engineer {
+    color: var(--primary);
+}
+
+.self-description {
+    font-size: 0.5rem;
+    margin-top: 1rem;
+    color: var(--text);
+    text-align: left;
+    max-width: 18rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    text-align: left;
+    font-size: 0.625rem;
+    color: var(--text-accent);
+}
+
+.terminal {
+    filter: brightness(60%);
+    font-weight: 200;
+}
+
+.subtitle-accent {
+    font-weight: 400;
+}
+
+.skills {
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: var(--text);
+    text-align: left;
+}
