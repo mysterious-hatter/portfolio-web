@@ -35,7 +35,7 @@ It is designed to showcase professional experience, skills, and provide contact 
 ## 📫 Contact
 
 If you want to get in touch:  
-- ✉ [Email](grigorii.eidelkind@gmail.com)
+- ✉ [Email](mailto:grigorii.eidelkind@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/grigorii-eidelkind-3b3777335/)
 - 🐙 [GitHub](https://github.com/mysterious-hatter)
 
