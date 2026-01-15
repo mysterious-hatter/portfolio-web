@@ -1,0 +1,39 @@
+.project-item {
+    height: 12rem;
+    width: 14rem;
+    border-radius: 1%;
+    border: var(--primary) solid 0.07rem;
+}
+
+.name {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-accent);
+    text-align: left;
+    padding: 1rem 1rem;
+}
+
+.description {
+    font-size: 0.625rem;
+    font-weight: 300;
+    color: var(--text);
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.key-skills {
+    font-size: 0.625rem;
+    font-weight: 500;
+    color: var(--text);
+    text-align: left;
+    padding: 0.5rem 1rem;
+}
+
+.skills {
+    font-size: 0.625rem;
+    font-weight: 300;
+    color: var(--text);
+    text-align: left;
+    padding: 0 1rem;
+    margin-left: 1rem;
+}

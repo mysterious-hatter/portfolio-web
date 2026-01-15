@@ -17,7 +17,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-size: calc(100vh * 32 / 1024);
+  font-size: calc(100vh * 36 / 1024);
 }
 
 body {

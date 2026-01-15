@@ -1,0 +1,22 @@
+.section-name {
+    font-size: 1rem;
+    color: var(--text-accent);
+    text-align: left;
+}
+
+.terminal {
+    filter: brightness(60%);
+    font-weight: 200;
+}
+
+.accent {
+    font-weight: 400;
+}
+
+.projects-list {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; 
+    max-width: 40rem;
+}

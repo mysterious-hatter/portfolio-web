@@ -1,7 +1,7 @@
 .about {
     margin-top: 13vh;
     padding-top: 10%;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -11,11 +11,11 @@
 
 .me-img {
     height: 12.5rem;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 .text {
-    padding-right: 7vw;
+    padding-right: 10%;
 }
 
 .hello-world {
@@ -28,6 +28,10 @@ h1 {
     font-size: 1.25rem;
     font-weight: 400;
     text-align: left;
+}
+ul {
+    padding-left: 1rem;
+    margin: 0;
 }
 
 .my-name {
