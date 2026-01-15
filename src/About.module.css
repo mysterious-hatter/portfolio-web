@@ -80,7 +80,7 @@ ul {
         height: min-content;
         align-items: center;
         justify-content: flex-end;
-        padding-top: 0;
+        padding-top: 5vh;
     }
     .self-description {
         width: 80vw;
