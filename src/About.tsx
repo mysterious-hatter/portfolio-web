@@ -25,7 +25,7 @@ export default function About() {
                 </ul>
             </div>
             <div id="photo">
-                <img src="/me.svg" alt="" className={styles["me-img"]}/>
+                <img src="/me.png" alt="" className={styles["me-img"]}/>
             </div>
         </section>
     );
