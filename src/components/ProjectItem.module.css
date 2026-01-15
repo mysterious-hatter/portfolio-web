@@ -37,6 +37,17 @@
     padding: 0 1rem;
     margin-left: 1rem;
 }
+.bottom-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.bottom-block img {
+    width: 2rem;
+    padding-right: 0.5rem;
+}
 
 @media screen and (max-width: 800px) {
     .project-item {
