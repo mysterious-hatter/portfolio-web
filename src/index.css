@@ -34,3 +34,14 @@ h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 0.625rem;
+  font-weight: 300;
+  color: var(--text);
+  padding-bottom: 5vh;
+}

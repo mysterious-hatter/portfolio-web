@@ -1,0 +1,46 @@
+.section-name {
+    font-size: 1rem;
+    color: var(--text-accent);
+    text-align: left;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.terminal {
+    filter: brightness(60%);
+    font-weight: 200;
+}
+
+.accent {
+    font-weight: 400;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.item-name {
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contacts-list a {
+    height: 7rem;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label {
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: var(--text);
+}
