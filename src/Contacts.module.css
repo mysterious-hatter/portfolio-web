@@ -44,3 +44,16 @@
     font-weight: 400;
     color: var(--text);
 }
+
+@media screen and (max-width: 800px) {
+    .contacts-list {
+        flex-direction: column;
+    }
+    .item-icon {
+        width: 30vw;
+    }
+    .contacts-list a {
+        width: 30vw;
+        margin-bottom: 0;
+    }
+}

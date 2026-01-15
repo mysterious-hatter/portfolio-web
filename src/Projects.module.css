@@ -21,3 +21,9 @@
     gap: 2rem; 
     max-width: 40rem;
 }
+
+@media screen and (max-width: 800px) {
+    .projects-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
