@@ -59,5 +59,7 @@
     .contacts-list a {
         width: 30vw;
         margin-bottom: 0;
+        height: fit-content;
+        padding-bottom: 10%;
     }
 }
