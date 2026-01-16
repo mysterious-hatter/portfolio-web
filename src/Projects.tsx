@@ -25,7 +25,7 @@ export default function Projects() {
         ></ProjectItem>
         <ProjectItem
           key={3}
-          name="Chemical Eequation Balancer"
+          name="Chemical Equation Balancer"
           description="A tool for balancing chemical equations automatically (Python)."
           skills={["Python", "Algorithm design", "Text processing"]}
           link="https://github.com/mysterious-hatter/chemical-equation-balancer"
